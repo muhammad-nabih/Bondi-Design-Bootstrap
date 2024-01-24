@@ -181,19 +181,45 @@ body {
 /* END STUFF */
 
 /* START TEAM  */
-.team{
+.team {
   background-color: var(--section-color);
 }
-.team h2{
+
+.team h2 {
   color: var(--yellow-color);
 }
-.team h4{
+
+.team h4 {
   background-color: var(--green-color);
 }
+
 /* END TEAM  */
 
 /* START PROJECT  */
 .project {
-  background-color:var(--dark-color);
+  background-color: var(--dark-color);
 }
+
 /* END PROJECT  */
+
+/* START SUBSCRIBE  */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+
+form input[type="email"] {
+  outline: none;
+  ;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+form input[type="email"]:focus {
+  outline: none;
+}
+
+form input[type="email"]::placeholder {
+  color: white;
+}
+
+/* END SUBSCRIBE  */
