@@ -223,3 +223,40 @@ form input[type="email"]::placeholder {
 }
 
 /* END SUBSCRIBE  */
+
+/* START FOOTER  */
+footer {
+  background-color: var(--dark-color);
+}
+
+footer p>span {
+  color: var(--green-color);
+}
+
+footer h6>span {
+  color: var(--yellow-color);
+}
+
+footer .icons li a svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  /* border-radius: 50%; */
+}
+
+footer .icons li a svg.facebook {
+  background-color: #1877f2;
+}
+
+footer .icons li a svg.google-plus {
+  background-color: #dd4b39;
+}
+
+footer .icons li a svg.twitter {
+  background-color: #1da1f2;
+}
+
+footer .icons li a svg.linkedIn {
+  background-color: #0a66c2;
+}
+
+/* END FOOTER  */
